@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/logo-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summary App</title>
+  </head>
+  <body>
+    <div id="app">
+      <img id="logo" src="/Logo-completed.svg" alt="Logo">
+      <form id="form" action="">
+        <div id="inputs">
+          <input type="url" id="url" placeholder="Video URL...">
+          <button title="Summarize"><i class="ph ph-magnifying-glass"></i></button>
+        </div>
+        <select name="language" id="select">
+          <option disabled selected>Select language translater...</option>
+          <option value="por_Latn">Portuguese</option>
+          <option value="eng_Latn">English</option>
+          <option value="ita_Latn">Italian</option>
+          <option value="jpn_Jpan">Japanese</option>
+          <option value="zho_Hant">Chinese</option>
+          <option value="fra_Latn">French</option>
+        </select>
+      </form>
+      <h2 id="audio-text">Text of the audio</h2>
+      <p id="content" class="placeholder">Choose a video to extract text of the audio...</p>
+      <h2 id="text-translated">Text translated</h2>
+      <p id="translated" class="placeholder">Waiting for translated text...</p>
+    </div>
+    <script type="module" src="/web/main.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </body>
+</html>

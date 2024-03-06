@@ -1,0 +1,38 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+#app > h1 {
+    background: linear-gradient(90deg, #5f196a 0%, #682175 11%, #652070 32.52%, #833890 72.02%, #9949A6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 4rem;
+    margin-top: -1rem;
+}
+
+#app > h2 { 
+    width: 512px;
+    text-align: justify;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+
+}
+
+#app > p {
+    margin-top: 1.5rem;
+    width: 512px;
+    text-align: justify;
+    font-size: 0.95rem;
+    color: #d7d7d7;
+    font-weight: 400;
+}
+
+#app .placeholder {
+    color: #47474d;
+    user-select: none;
+}
